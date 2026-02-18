@@ -1,0 +1,9 @@
+{
+  "name": "Valheimtexturemedic",
+  "version_number": "0.1.0",
+  "website_url": "https://github.com/allenginter/Valheim-medic-2.2.0",
+  "description": "Packed Tkinter+PY Utility to disagnose and locate Pink texture paths",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2333"
+  ]
+}
