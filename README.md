@@ -1,5 +1,7 @@
-Markdown
 # Valheim Mod Medic v2.3
+
+Updated and added DEEP_Scan3 to the file list. This scans for SRP and URP conflicts as well as contains all previous forms.
+The EXE files does not have this feature as it is primarily a modders tool.
 
 A diagnostic tool to find "Pink" shader errors and texture issues in Valheim mods.
 
