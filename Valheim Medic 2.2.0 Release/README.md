@@ -1,5 +1,5 @@
 =====================================================
-VALHEIM MOD MEDIC v2.2.0
+ValheimTextureMedic
 A diagnostic tool for Valheim modders to identify "Pink Texture" issues, shader incompatibilities, and AssetBundle errors.
 
 [ DIAGNOSTIC CHECKS ]
@@ -10,6 +10,8 @@ Texture Dimension Check: Identifies textures that are NOT 'Power of Two' (e.g., 
 Missing Manifests: Checks if AssetBundles are missing their required .manifest file.
 
 JSON & Path Detection: Automatically detects the mod's JSON configuration and directory structure to ensure valid installation paths.
+
+This release contaisn  the EXE for users and the PY for modders. Modders can use either, but the PY allows for less concern 
 
 [ HOW TO USE ]
 This project uses uv to ensure all users run the tool with the correct library versions.
@@ -25,4 +27,6 @@ In your terminal, navigate to the folder and run:
 PowerShell
 uv run valheim_medic.py
 Start Diagnosis: Browse to your Valheim plugins folder and click 'Start Diagnosis'.
+
+Aplogies for the releasing of the PY and not the EXE file. I am new to the Thunderstore Format and got flustered and confused myself. There is a newer build that is in testing that will detect SRP and URP issues for modders.
 
